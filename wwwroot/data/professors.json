@@ -1,0 +1,115 @@
+[
+  {
+    "Id": "haiyan-huang",
+    "Name": "Haiyan Huang",
+    "photo": "https://www.flagler.edu/media/content-types/profiles-335-x-335/profile-haiyan-huang-334x334.jpg",
+    "Position": "Assistant Professor of Management Information Systems, Coordinator of MIS Programs",
+    "Phone": "904-819-6267",
+    "Office": "74 Riberia Street, Room 203",
+    "Ratings": [
+      4,
+      5,
+      3
+    ],
+    "Comments": [
+      "Great",
+      "Kind",
+      ""
+    ]
+  },
+  {
+    "Id": "jeremy-wang",
+    "Name": "Jeremy Wang",
+    "photo": "https://www.flagler.edu/media/content-types/profiles-335-x-335/profile-jeremy-wang-334x334.jpg",
+    "Position": "Associate Professor of Mangement Information Systems, Director of the China Program",
+    "Phone": "904-816-6369",
+    "Office": "74 Riberia Street, Room 202",
+    "Ratings": [
+      5
+    ],
+    "Comments": [
+      "Wonderful",
+      "Enthusiastic"
+    ]
+  },
+  {
+    "Id": "charles-white",
+    "Name": "Charles White",
+    "photo": "https://www.flagler.edu/media/content-types/profiles-335-x-335/CDW-335x335.jpg",
+    "Position": "Peter and Sue Freytag Professor of Management, Director of the Business Administration Program",
+    "Phone": "904-826-8520",
+    "Office": "Kenan 527",
+    "Ratings": [
+      2,
+      4,
+      5
+    ],
+    "Comments": [
+      "Nice"
+    ]
+  },
+  {
+    "Id": "michelle-woodhouse",
+    "Name": "Michelle Woodhouse",
+    "photo": "https://www.flagler.edu/media/content-types/profiles-335-x-335/WOODHOUSE_MICHELLE.jpg",
+    "Position": "Assistant Professor of Marketing",
+    "Phone": "904-826-8671",
+    "Office": "Wiley Hall, Room 302",
+    "Ratings": null,
+    "Comments": null
+  },
+  {
+    "Id": "pin-hung-kao",
+    "Name": "Pin Hung Kao",
+    "photo": "https://www.flagler.edu/media/live-migration/tmp/migration/sebin/p/e/chris-kao-334x334.jpg",
+    "Position": "Assistant Professor of Mathematics",
+    "Phone": "904-826-8676",
+    "Office": "74 Riberia Street, Room 205",
+    "Ratings": [
+      3,
+      3,
+      3
+    ],
+    "Comments": null
+  },
+  {
+    "Id": "racheal-greene",
+    "Name": "Racheal Greene",
+    "photo": "https://www.flagler.edu/media/content-types/profiles-335-x-335/Greene-Rachael-335x335.jpg",
+    "Position": "Adjunct",
+    "Phone": null,
+    "Office": "Student Center, 202",
+    "Ratings": [],
+    "Comments": null
+  },
+  {
+    "Id": "zachary-cole",
+    "Name": "Zachary Cole",
+    "photo": "https://www.flagler.edu/media/live-migration/tmp/migration/sebin/t/y/zach-cole.jpg",
+    "Position": "Assistant Professor and Program Director",
+    "Phone": "904-819-6312",
+    "Office": "Wiley Hall, Room 213",
+    "Ratings": null,
+    "Comments": null
+  },
+  {
+    "Id": "sara-pedigo",
+    "Name": "Sara Pedigo",
+    "photo": "https://www.flagler.edu/media/content-types/profiles-335-x-335/profile-sara-pedigo-334x334.jpg",
+    "Position": "Professor and Chair of Visual and Performing Arts",
+    "Phone": "904-819-6487",
+    "Office": "Molly Wiley Art Building, Room 101",
+    "Ratings": null,
+    "Comments": null
+  },
+  {
+    "Id": "chris-balaschak",
+    "Name": "Chris Balaschak",
+    "photo": "https://www.flagler.edu/media/content-types/profiles-335-x-335/employee-recognition-2020/Chris-Balaschak---final--103020.jpg",
+    "Position": "Kenan Distinguished Associate Professor of Liberal Education in Art History",
+    "Phone": "904-826-8574",
+    "Office": "Markland House, Room 28",
+    "Ratings": null,
+    "Comments": null
+  }
+]

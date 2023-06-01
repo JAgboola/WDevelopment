@@ -1,0 +1,71 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using RateMyProfessors.Models
+@using RateMyProfessors.Services
+@inject JsonFileProfessorService ProfessorService
+
+
+
+<div class="card-colummns">
+    @foreach (var professor in ProfessorService.GetProfessors())
+    {
+        <div class="card">
+            <div class="card-photo" style="background-image: url('@professor.Photo');">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">@professor.Name</h5>
+                <h6 class="card-title">@professor.Position</h6>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">
+                    <button @onclick="(e => SelectProfessor(professor.Id))"
+                        data-toggle="modal" data-target="#professorModal" class="btn btn-primary">
+                        More Details
+                    </button>
+                </small>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+@if (selectedProfessor != null)
+{
+
+    <div class="modal fade" id="professorModal" tabindex="-1" role="dialog" aria-labelledby="professorName" aria-hidden="true"></div>
+    <div class="modal-dialog modal-dialog-centered" role="document"></div>
+
+
+    <div class="modal-content"></div>
+    <div class="modal-header">
+        <h5 class="modal-title" id="professorName">@selectedProfessor.Name</h5>
+        <h6 class="modal-title" id="professorPosition">@selectedProfessor.Position</h6>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+
+    <div class="modal-body">
+        <div class="card">
+            <div class="card-img" style="background-image: url('@selectedProfessor.Photo');">
+            </div>
+            <div class="card-body">
+                <p class="card-text">@selectedProfessor.Ratings</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+    </div>
+}
+
+@code {
+    Professor? selectedProfessor;
+    string? selectedProfessorId;
+
+    void SelectProfessor(string professorId)
+    {
+        selectedProfessorId = professorId;
+        selectedProfessor = ProfessorService.GetProfessors().First(x => x.Id == professorId);
+    }
+}

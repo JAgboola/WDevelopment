@@ -1,0 +1,15 @@
+﻿@page
+@using RateMyProfessors.Components
+@model IndexModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To Flagler College!</h1>
+</div>
+
+@(await Html.RenderComponentAsync <ProfessorsList>(RenderMode.ServerPrerendered))
+
+
+<script src="_framework/blazor.server.js"></script>
