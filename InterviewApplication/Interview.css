@@ -1,0 +1,21 @@
+﻿input[type="text"]:read-only, input[type="date"]:read-only, textarea:read-only {
+    background-color: transparent;
+    color: darkorange;
+}
+
+input[type="checkbox"]:disabled, input[type="radio"]:disabled {
+    margin-right: 0.5rem;
+}
+
+input[type="checkbox"]:disabled, input[type="radio"]:disabled {
+    background-color: transparent;
+    border-width: 1px;
+}
+
+input[type="checkbox"]:disabled:checked, input[type="radio"]:disabled:checked {
+    background-color: darkorange;
+}
+
+table thead th, table tbody td {
+    padding: 0.25rem 0.5rem;
+}
